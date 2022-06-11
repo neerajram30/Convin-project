@@ -1,0 +1,63 @@
+.homeContainer{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.cardContainer{
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    
+}
+.usercard{
+    width: 45%;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(8, 8, 48, 0.5);
+    border-radius: 5px;
+}
+
+img{
+    border-radius: 100%;
+    margin-top: 12%;
+}
+.contents{
+    margin-top: 15%;
+    color: white;
+}
+
+
+.btnContainer{
+    margin-left: 5%;
+    position: fixed;
+    margin-top: 10%;
+}
+
+.btns{
+    background-color: #FF2626;
+    width: 100px;
+    height: 40px;
+    margin: 10%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+.btns:hover{
+    background-color: #BD1616;
+}
+/* @media screen and (max-width: 750px) {
+    .homeContainer{
+    }
+    .btnContainer{
+        position: relative ;
+        display: flex;
+    }
+    .btns{
+        background-color: aquamarine;
+        width: 50px;
+        height: 20px;
+        margin: 25%;
+    }
+  } */

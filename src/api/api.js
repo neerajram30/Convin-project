@@ -1,4 +1,4 @@
 import axios from 'axios'
 export default axios.create({
-    baseURL:"https://reqres.in/api/users?page=2",
+    baseURL:"https://reqres.in/api/users?",
 })
