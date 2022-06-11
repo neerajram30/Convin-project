@@ -1,3 +1,23 @@
+.loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+    
+}
+.cardloading{
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+}
+
 .homeContainer{
     display: flex;
     justify-content: space-between;
@@ -47,17 +67,44 @@ img{
 .btns:hover{
     background-color: #BD1616;
 }
-/* @media screen and (max-width: 750px) {
+.btns:focus{
+    border: 2px solid white;
+    background-color: #BD1616;
+}
+@media screen and (max-width: 750px) {
     .homeContainer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .btnContainer{
-        position: relative ;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-self: center;
+        margin-left: 0%;
+        position: relative;
+        margin-top: 50%;
+
     }
     .btns{
-        background-color: aquamarine;
-        width: 50px;
-        height: 20px;
-        margin: 25%;
+        width: 70px;
+        height: 40px;
+        margin:2px;
+        position: relative;
     }
-  } */
+    .cardContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        margin-top: 20%;
+        
+    }
+    .usercard{
+        width: 80%;
+    }
+     
+    img{
+        width: 110px;
+    }
+  } 
